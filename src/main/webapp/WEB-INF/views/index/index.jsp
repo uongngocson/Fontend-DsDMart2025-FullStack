@@ -26,6 +26,11 @@
 
 
 
+        <link rel="stylesheet" href="../../../resources/assets/css/base.css">
+        <link rel="stylesheet" href="../../../resources/assets/css/style.css">
+        <link rel="stylesheet" href="../../../resources/assets/css/grid.css">
+        <link rel="stylesheet" href="../../../resources/assets/css/responsive.css">
+
 
 
     </head>
@@ -96,10 +101,13 @@
 
                     <div class="nav-rec">
                         <i class="fa-regular fa-user"></i>
-                        <div class="nav-rec-cont">
+
+                        <a class="nav-rec-cont" href="/login">
+
                             <p class="rec-p1">Đăng nhập</p>
                             <p class="rec-p2">Tài khoản</p>
-                        </div>
+                        </a>
+
                     </div>
 
                     <!-- Giỏ hàng -->
@@ -132,9 +140,37 @@
 
                     <!-- Danh mục -->
                     <div class="panel-dep">
-                        <img src="../../../resources/Images/depart-img.webp" alt="Danh mục">
-                        <p>Danh mục</p>
-                        <i class="bi bi-caret-down"></i>
+                        <div class="panel-dep-box1">
+                            <img src="../../../resources/Images/depart-img.webp" alt="Danh mục">
+                            <p>Danh Mục </p>
+                            <i class="bi bi-caret-down"></i>
+
+                        </div>
+                        <div class="panel-dep-box2">
+
+                            <a href="/listofitem">Thời Trang Nam</a>
+                            <a href="#">Thời Trang Nữ</a>
+                            <a href="#">Điện Thoại & Phụ Kiện</a>
+                            <a href="#">Mẹ & Bé</a>
+                            <a href="#">Thiết Bị Điện Tử</a>
+                            <a href="#">Nhà Cửa & Đời Sống</a>
+                            <a href="#">Máy Tính & Laptop</a>
+                            <a href="#">Sắc Đẹp</a>
+                            <a href="#">Máy Ảnh & Máy Quay Phim</a>
+                            <a href="#">Sức Khỏe</a>
+                            <a href="#">Đồng Hồ</a>
+                            <a href="#">Giày Dép Nữ</a>
+                            <a href="#">Giày Dép Nam</a>
+                            <a href="#">Túi Ví Nữ</a>
+                            <a href="#">Thiết Bị Điện Gia Dụng</a>
+                            <a href="#">Phụ Kiện & Trang Sức Nữ</a>
+                            <a href="#">Thể Thao & Du Lịch</a>
+                            <a href="#">Bách Hóa Online</a>
+                            <a href="#">Ô Tô & Xe Máy & Xe Đạp</a>
+                            <a href="#">Nhà Sách Online</a>
+                            <a href="#">Balo & Túi Ví Nam</a>
+
+                        </div>
                     </div>
 
                     <!-- Dịch vụ -->
@@ -171,7 +207,7 @@
                 <div class="banner-space">
                     <div class="walmart-banner">
                         <div class="banner-content">
-                            <img src="../../../resources/Images/banner-logo.webp" alt="banner-logo">
+                            <img src="../../../resources/Images/banner-logo.png" alt="banner-logo">
                             <div class="banner-offer">
                                 <p>Giảm 50% Walmart+ – Truy cập sớm 5 giờ!</p>
                             </div>
@@ -1827,11 +1863,11 @@
                                 <div class="prodect-grocery-image-holders">
                                     <div class="blue-space-area">
                                         <a href="#"><img src="../../../resources/page9-img/img-8.webp"
-                                                alt="Hình ảnh đồ dùng cho bé"></a>
+                                                alt="Hình ảnh Đồ trẻ em"></a>
                                     </div>
                                 </div>
                                 <div class="content-center">
-                                    <h3>Đồ dùng cho bé</h3>
+                                    <h3>Đồ trẻ em</h3>
                                 </div>
                             </div>
                         </div>
@@ -1931,7 +1967,7 @@
                                 </div>
                             </div>
                             <div class="content-center">
-                                <h3>Đồ dùng cho bé</h3>
+                                <h3>Trẻ em</h3>
                             </div>
                         </div>
                     </div>

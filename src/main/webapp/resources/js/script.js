@@ -205,3 +205,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.querySelector(".panel-dep").onclick = function () {
+    document.querySelector(".panel-dep-box2").classList.toggle("active");
+
+    this.querySelector(".panel-dep-box1 img").classList.toggle("active-img");
+    this.querySelector(".panel-dep-box1 i").classList.toggle("active-text");
+};
+
+
+
+
+
+

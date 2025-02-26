@@ -19,10 +19,21 @@ public class UserController {
         return "login"; // Load /WEB-INF/views/login.jsp
     }
 
+    @GetMapping("/register")
+    public String registerPage() {
+        return "register"; // Load /WEB-INF/views/login.jsp
+    }
+
     // Điều hướng đến trang dashboard.jsp và gửi dữ liệu đến view
     @GetMapping("/dashboard")
     public String dashboardPage(Model model) {
         model.addAttribute("username", "Sơn");
         return "dashboard"; // Load /WEB-INF/views/dashboard.jsp
+    }
+
+    @GetMapping("/listofitem")
+    public String dashboardList(Model model) {
+        model.addAttribute("username", "Sơn");
+        return "listofitem"; // Load /WEB-INF/views/dashboard.jsp
     }
 }

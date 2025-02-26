@@ -26,7 +26,7 @@
                 <div class="form-one">
                     <div class="form-one--item1">
                         <img src="../../../resources/assets/img/logo/logo-full-blue.png" class="header__logo-img">
-                        <div class="form-one--item1--list1">ĐĂNG NHẬP</div>
+                        <div class="form-one--item1--list1">ĐĂNG KÝ</div>
 
                     </div>
                     <div class="form-one--item2">
@@ -48,27 +48,27 @@
                             <div class="form-two--item2--list1-con">
 
                                 <div class="form-two-icon1">
-                                    <div class="">Đăng nhập</div>
+                                    <div class="">Đăng ký</div>
                                     <div class="form-two-icon1-cus">Đăng nhập với mã QR</div>
                                     <div class="form-two-icon1-item3"><i class="fa-solid fa-qrcode"></i></div>
                                 </div>
                                 <div class="form-two-icon2">
-                                    <input class="form-two-icon2">
+                                    <input  placeholder="Số điện thoại" class="form-two-icon2">
 
                                     </input>
                                 </div>
-                                <div class=" form-two-icon3">
+                                <!-- <div class=" form-two-icon3">
 
                                     <input class="form-two-icon2">
 
                                     </input>
-                                </div>
+                                </div> -->
                                 <div class=" form-two-icon4">
-                                    <div class="form-two-icon4-icon1">ĐĂNG NHẬP</div>
-                                    <div class="form-two-icon4-icon2">
+                                    <div class="form-two-icon4-icon1">TIẾP THEO</div>
+                                    <!-- <div class="form-two-icon4-icon2">
                                         <div class="">Quên mật khẩu</div>
                                         <div class="">Đăng nhập với SMS</div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="form-two-icon5">
                                     <div class="underscore"></div>
@@ -84,9 +84,17 @@
                                         <i class="form-custom2 fa-brands fa-google"></i> Google
                                     </div>
                                 </div>
+
+                                <div class="form-two-icon8">
+                                    <div class="form-two-icon7-item1">Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                                    </div>
+                                    <div class="form-two-icon7-item2">Điều khoản dịch vụ & chính sách bảo mật</div>
+                                </div>
+
                                 <div class="form-two-icon7">
-                                    <div class="form-two-icon7-item1">Bạn mới biết đến shopee? </div>
-                                    <a class="form-two-icon7-item2" href="/register">đăng ký</a>
+                                    <div class="form-two-icon7-item1">Bạn đã có tài khoản?
+                                    </div>
+                                    <a class="form-two-icon7-item2" href="/login">Đăng nhập</a>
                                 </div>
                                 <div class="form-two-icon8"></div>
                                 <div class="form-two-icon9"></div>
